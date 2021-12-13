@@ -1,0 +1,5 @@
+rootProject.name = 'advertiser'
+include 'ad-campaign'
+include 'ad-server'
+include 'ad-customer'
+include 'ad-common'

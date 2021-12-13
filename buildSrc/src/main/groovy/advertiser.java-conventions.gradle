@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id 'io.spring.dependency-management'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group = 'com.koderace'
+version = '0.0.1-SNAPSHOT'
+
+sourceCompatibility = '17'
+
+test {
+    useJUnitPlatform()
+}
+
+ext {
+    set('springBootAdminVersion', "2.4.3")
+}
+
+dependencyManagement {
+    imports {
+        mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+        mavenBom "de.codecentric:spring-boot-admin-dependencies:${springBootAdminVersion}"
+    }
+}
+
+dependencies {
+//    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

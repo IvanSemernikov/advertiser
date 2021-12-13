@@ -1,0 +1,17 @@
+plugins {
+    id 'advertiser.java-conventions'
+    id 'org.springframework.boot'
+}
+
+
+
+dependencies {
+    implementation project(':ad-campaign')
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'de.codecentric:spring-boot-admin-starter-client'
+    implementation 'de.codecentric:spring-boot-admin-starter-server'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux:'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
+}
+

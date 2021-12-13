@@ -1,0 +1,25 @@
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+spring:
+  application:
+    name: Advertiser
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8080/admin
+
+server:
+  port: 8090
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#logging:
+#  level.de.codecentric.boot: debug

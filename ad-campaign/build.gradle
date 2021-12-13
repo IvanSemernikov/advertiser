@@ -1,0 +1,9 @@
+plugins {
+    id 'advertiser.java-conventions'
+}
+
+dependencies {
+    implementation project(':ad-customer')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
