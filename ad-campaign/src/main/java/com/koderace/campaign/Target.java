@@ -18,20 +18,14 @@
  */
 package com.koderace.campaign;
 
-import com.koderace.customer.Customer;
-
-import java.util.Collection;
-
 /**
  * @author Ivan Siemiernikov
  */
-public interface Campaign {
+public interface Target {
 
-    String getName();
+    TargetGender getGender();
 
-    Customer getCustomer();
+    TargetAge getAge();
 
-    Settings getSettings();
 
-    Collection<AdEntity> getAds();
 }

@@ -23,4 +23,12 @@ package com.koderace.campaign;
  * @author Ivan Siemiernikov
  */
 public interface AdEntity {
+
+    AdCategory getCategory();
+
+    AdContent getContent();
+
+    Settings getSettings();
+
+    AdOffer getOffer();
 }

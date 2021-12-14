@@ -21,5 +21,7 @@ package com.koderace.campaign;
 /**
  * @author Ivan Siemiernikov
  */
-public interface CampaignPeriod {
+public interface Period {
+
+
 }

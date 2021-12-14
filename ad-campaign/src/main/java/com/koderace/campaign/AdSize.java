@@ -1,4 +1,4 @@
-/**
+/*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -16,22 +16,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 package com.koderace.campaign;
-
-import com.koderace.customer.Customer;
-
-import java.util.Collection;
 
 /**
  * @author Ivan Siemiernikov
  */
-public interface Campaign {
-
-    String getName();
-
-    Customer getCustomer();
-
-    Settings getSettings();
-
-    Collection<AdEntity> getAds();
+public interface AdSize {
 }

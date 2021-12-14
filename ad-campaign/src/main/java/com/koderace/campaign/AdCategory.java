@@ -23,4 +23,10 @@ package com.koderace.campaign;
  * @author Ivan Siemiernikov
  */
 public interface AdCategory {
+
+    String getName();
+
+    AdSize getSize();
+
+    boolean allowVideo();
 }

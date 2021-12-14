@@ -18,20 +18,16 @@
  */
 package com.koderace.campaign;
 
-import com.koderace.customer.Customer;
-
-import java.util.Collection;
-
 /**
  * @author Ivan Siemiernikov
  */
-public interface Campaign {
+public interface Settings {
 
-    String getName();
+    Period getPeriod();
 
-    Customer getCustomer();
+    Target getTarget();
 
-    Settings getSettings();
+    CostLimit getCostLimit();
 
-    Collection<AdEntity> getAds();
+    Exposure getExposure();
 }
