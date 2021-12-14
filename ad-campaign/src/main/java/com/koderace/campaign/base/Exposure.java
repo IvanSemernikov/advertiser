@@ -1,4 +1,4 @@
-/**
+/*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -16,11 +16,14 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.koderace.campaign;
+package com.koderace.campaign.base;
 
 /**
  * @author Ivan Siemiernikov
  */
-public interface TargetGender {
+public interface Exposure {
+
+
+    int getPageCount();
 
 }

@@ -16,17 +16,12 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
-package com.koderace.campaign;
+package com.koderace.campaign.base;
 
 /**
  * @author Ivan Siemiernikov
  */
-public interface AdCategory {
+public interface Period {
 
-    String getName();
 
-    AdSize getSize();
-
-    boolean allowVideo();
 }

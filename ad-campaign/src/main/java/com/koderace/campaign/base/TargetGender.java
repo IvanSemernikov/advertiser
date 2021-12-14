@@ -16,11 +16,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
-package com.koderace.campaign;
+package com.koderace.campaign.base;
 
 /**
  * @author Ivan Siemiernikov
  */
-public interface AdSize {
+public interface TargetGender {
+
 }

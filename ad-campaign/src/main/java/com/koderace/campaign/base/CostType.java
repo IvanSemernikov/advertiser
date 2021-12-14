@@ -17,14 +17,10 @@
  * under the License.
  */
 
-package com.koderace.campaign;
+package com.koderace.campaign.base;
 
 /**
  * @author Ivan Siemiernikov
  */
-public interface AdOffer {
-
-    CostType getCostType();
-
-    OfferRate getOfferRate();
+public interface CostType {
 }

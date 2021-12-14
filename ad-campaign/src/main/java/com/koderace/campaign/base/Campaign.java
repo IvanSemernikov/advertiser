@@ -16,11 +16,22 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+package com.koderace.campaign.base;
 
-package com.koderace.campaign;
+import com.koderace.customer.Customer;
+
+import java.util.Collection;
 
 /**
  * @author Ivan Siemiernikov
  */
-public interface CostType {
+public interface Campaign {
+
+    String getName();
+
+    Customer getCustomer();
+
+    Settings getSettings();
+
+    Collection<AdEntity> getAds();
 }

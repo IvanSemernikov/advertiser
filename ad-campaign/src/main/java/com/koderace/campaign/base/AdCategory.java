@@ -17,10 +17,16 @@
  * under the License.
  */
 
-package com.koderace.campaign;
+package com.koderace.campaign.base;
 
 /**
  * @author Ivan Siemiernikov
  */
-public interface AdContent {
+public interface AdCategory {
+
+    String getName();
+
+    AdSize getSize();
+
+    boolean allowVideo();
 }

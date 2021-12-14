@@ -17,10 +17,10 @@
  * under the License.
  */
 
-package com.koderace.campaign;
+package com.koderace.campaign.base;
 
 /**
  * @author Ivan Siemiernikov
  */
-public interface OfferRate {
+public interface AdSize {
 }
